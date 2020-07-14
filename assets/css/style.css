@@ -15,7 +15,6 @@
 
 a{text-decoration:none;}
 a:hover{text-decoration:none;}
-li{list-style:none;}
 
 .container{
 	max-width: 1360px;
@@ -62,6 +61,7 @@ li{list-style:none;}
 
 .acount li{
 	margin-left:8px;
+	list-style: none;
 }
 
 .main_drop:hover .videos_menu{
@@ -206,6 +206,8 @@ li{list-style:none;}
 	width: 880px;
 	font-size: 1.25em;
 	margin: 10px auto;
+	margin-bottom: 15px;
+	padding: 15px;
 }
 
 hr{
@@ -213,4 +215,57 @@ hr{
 	margin: 15px auto;
 	left:0px;
 	margin-bottom: 4em;
+}
+
+.post{
+	margin: 15px auto;
+
+}
+
+.post_author_text{
+	margin-left: 15px;
+}
+
+.post_author_text p{
+	margin:0 !important;
+	padding:0 !important;
+	margin-left: 20px;
+}
+
+.post_img{
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	margin:0 auto;
+}
+
+.post_img span{
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	margin:15px auto;
+}
+
+
+.post_img img{
+	width: 648px;
+	height: 364.5px;
+	margin: 0 auto;
+}
+
+.post_content{
+	width:650px;
+	margin: 15px auto;
+}
+
+.post_content p,
+.post_content li{
+	width:750px;
+	margin: 10px auto;
+	font-size: 1.25em;
+}
+
+.bg_red{
+	color: var(--red);
+	text-decoration: underline;
 }
