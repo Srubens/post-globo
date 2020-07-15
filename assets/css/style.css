@@ -1,11 +1,17 @@
 :root{
+	--white_light:#fff;
 	--white:#f3f3f3;
 	--red:#C4170C;
+	--pinterest:#bd1e2f;
 	--yellow:#fa0;
 	--orange:#ff7f00;
 	--black:#111;
 	--blue:#0669de;
+	--facebock:#4267b2;
+	--twitter:#1da1f2;
+	--linkedin:#1377b5;
 	--green:#3e831e;
+	--whatsapp:#70c97b;
 	--gray:#ddd;
 	--gray-dark: #999;
 	--gray-lith:#e7e7e7; 
@@ -147,8 +153,8 @@ a:hover{text-decoration:none;}
 	text-align: center;
 }
 
-.buscar[type="text"]{
-	color:var(--white) !important;
+#buscar input[type="text"]{
+	color: var(--white_light) !important;
 }
 
 .input_search{
@@ -156,8 +162,7 @@ a:hover{text-decoration:none;}
 	background-color:rgba(0,0,0,.15);
 	border: none;
 	border-radius: 4px;
-	color: #fff !important;
-	text-align: right;
+	color: var(--white_light) !important;
 	box-shadow: none;
 	outline: 0;
 	width:164px;
@@ -260,7 +265,7 @@ hr{
 
 .post_content p,
 .post_content li{
-	width:750px;
+	width:676px;
 	margin: 10px auto;
 	font-size: 1.25em;
 }
@@ -268,4 +273,105 @@ hr{
 .bg_red{
 	color: var(--red);
 	text-decoration: underline;
+}
+
+.btn_dark{
+	height: 48px;
+	border: 1px solid var(--gray-dark);
+	align-items: center;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.barra{
+	border: 1px solid var(--black);
+	width: 780px;
+	height: 4px;
+	margin: 0px auto;
+	background: var(--black);
+}
+
+.ultimos_posts{
+	margin: 10px auto;
+}
+
+.ultimos_posts header{
+	margin:15px auto;
+	text-align: left;
+	width: 740px;
+}
+
+.last_post{
+	width: 880px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.last_post_content{
+	width: 430px;
+	margin:10px auto;
+	margin-left: 20px;
+}
+
+.last_post_content h1{
+	font-size: 1.5em;
+}
+
+.more{
+	background: var(--white);
+	height: auto;
+	width: 100%;
+}
+
+.footer{
+	background: var(--red);
+	height: auto;
+	color: var(--white);
+}
+
+.logo_footer,
+.noticias{
+	margin: 20px 0;
+}
+
+.logo_footer a{
+	margin-left: 15px;
+}
+
+.footer a{
+	color: var(--white);
+}
+
+.menu_footer li{
+	list-style: none;
+	margin-left: 4px;
+}
+
+.post_main_social a{
+	font-size: 28px;
+	margin-left: 12px;
+}
+
+.fa-facebook-square{
+	color:var(--facebock);
+}
+
+.fa-twitter{
+	color:var(--twitter);
+}
+
+.fa-whatsapp{
+	color:var(--whatsapp);
+}
+
+.fa-linkedin{
+	color: var(--linkedin);
+}
+
+.fa-pinterest{
+	color:var(--pinterest);
 }
